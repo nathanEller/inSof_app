@@ -16,9 +16,9 @@ development:
   adapter: postgresql
   host: localhost
   encoding: unicode
-  database: in_Sof_app_development
+  database: inSofAppDevelopment
   pool: 5
-  username: inSof_app
+  username: inSof
   password: blackbear99
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -43,16 +43,16 @@ test:
   adapter: postgresql
   host: localhost
   encoding: unicode
-  database: in_Sof_app_test
+  database: inSofAppTest
   pool: 5
-  username: inSof_app
+  username: inSof
   password: blackbear99
 
 production:
   adapter: postgresql
   host: localhost
   encoding: unicode
-  database: in_Sof_app_production
+  database: inSofAppProduction
   pool: 5
-  username: inSof_app
+  username: inSof
   password: blackbear99
